@@ -8,5 +8,5 @@
 
 ```bash
 git clone https://github.com/lavashgovadina3/simple-ddos.git
-cd ddos
+cd simple-ddos
 python ddos.py
