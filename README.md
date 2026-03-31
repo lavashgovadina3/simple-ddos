@@ -1,7 +1,7 @@
 # simple-ddos
 
 **Author:** lavashgovadina3  
-**Version:** 7.0 ULTIMATE  
+**Version:** 1.0  
 **Platform:** Windows 7, 8, 8.1, 10, 11  
 
 ## Installation
