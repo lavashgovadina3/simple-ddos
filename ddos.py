@@ -1,8 +1,8 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # ============================================================
-# ULTIMATE DDOS TOOL v7.0 - WINDOWS EDITION
+# SIMPLE DDOS - WINDOWS EDITION
 # AUTHOR: lavashgovadina3
-# VERSION: 7.0 ULTIMATE
+# VERSION: 1.0
 # DATE: 2026
 # PLATFORM: Windows 7, 8, 8.1, 10, 11
 # LICENSE: MIT
@@ -74,7 +74,7 @@ def elevate_privileges():
             print("[!] Failed to elevate privileges. Some features may not work.")
 
 # ============= GLOBAL CONSTANTS =============
-VERSION = "7.0 ULTIMATE"
+VERSION = "1.0 ULTIMATE"
 AUTHOR = "lavashgovadina3"
 RELEASE_DATE = "2026"
 MAX_THREADS = 20000
@@ -911,7 +911,7 @@ class ProxyManager:
         if not self.proxies:
             # Generate test proxies (local network only)
             for i in range(1, 10):
-                self.proxies.append(f"127.0.0.{i}:8080")
+                self.proxies.append(f"121.0.0.{i}:8080")
                 
     def get_proxy(self) -> str:
         """Get next proxy in rotation"""
@@ -1468,7 +1468,7 @@ class DoSUltimate:
 {Colors.RED}{Colors.BOLD}
 ╔═══════════════════════════════════════════╗
 ║ ╔═══════════════════════════════════════╗ ║
-║ ║  ULTIMATE DDOS TOOL v{VERSION:<10}    ║ ║
+║ ║  SIMPLE DDOS TOOL v{VERSION:<10}    ║ ║
 ║ ║  AUTHOR: {AUTHOR:<20}                 ║ ║
 ║ ║  RELEASE: {RELEASE_DATE:<20}          ║ ║
 ║ ╚═══════════════════════════════════════╝ ║
@@ -1893,7 +1893,7 @@ class DoSUltimate:
                 self.print_banner()
                 
                 print(f"\n{Colors.CYAN}{Colors.BOLD}ABOUT{Colors.RESET}")
-                print(f"  {Colors.WHITE}Name:{Colors.RESET} ULTIMATE DDOS TOOL")
+                print(f"  {Colors.WHITE}Name:{Colors.RESET} SIMPLE DDOS TOOL")
                 print(f"  {Colors.WHITE}Version:{Colors.RESET} {VERSION}")
                 print(f"  {Colors.WHITE}Author:{Colors.RESET} {AUTHOR}")
                 print(f"  {Colors.WHITE}Release:{Colors.RESET} {RELEASE_DATE}")
